@@ -4,6 +4,7 @@ from django.db import models
 
 
 class Task(models.Model):
+    name = 'TaskModel'
     title = models.CharField('Название', max_length=50)
     task = models.TextField('Описание')
 

@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'findcourse.urls'
+ROOT_URLCONF = 'findcourse.findcourse.urls'
 
 TEMPLATES = [
     {

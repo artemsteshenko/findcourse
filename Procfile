@@ -1,1 +1,1 @@
-web: gunicorn findcourse.wsgi --log-file -
+web: gunicorn findcourse.wsgi 
